@@ -37,6 +37,19 @@
       width: 100%;
       border-radius: 10px;
     }
+    .hero button {
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: purple;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .hero button:hover {
+      background-color: #5e2a84;
+    }
     .content {
       padding: 40px;
       text-align: center;
@@ -45,6 +58,29 @@
       color: purple;
       font-size: 2rem;
       margin-bottom: 1rem;
+    }
+    .features {
+      padding: 40px;
+      background-color: #fafafa;
+    }
+    .features h2 {
+      text-align: center;
+      color: purple;
+      margin-bottom: 20px;
+    }
+    .features ul {
+      max-width: 800px;
+      margin: auto;
+      padding: 0;
+      list-style: none;
+    }
+    .features li {
+      background: #fff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 1.1rem;
     }
     .gallery {
       display: grid;
@@ -58,6 +94,16 @@
       border-radius: 8px;
       height: 250px;
       object-fit: cover;
+    }
+    .comingsoon {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: purple;
+      color: white;
+    }
+    .comingsoon h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
     }
     footer {
       background-color: purple;
@@ -88,6 +134,7 @@
       <p><strong>Email:</strong> contact@cafesolar.shop</p>
       <p><strong>Phone:</strong> 187-025-22837</p>
       <p><strong>Address:</strong> 222 N Pacific Coast Highway, 10th Floor, El Segundo, CA 90245</p>
+      <button onclick="window.location.href='mailto:contact@cafesolar.shop'">Contact Us</button>
     </div>
     <div>
       <img src="https://i.ytimg.com/vi/8f9ssE1F9g4/maxresdefault.jpg" alt="Cafe Solar">
@@ -103,10 +150,26 @@
     </p>
   </section>
 
+  <section class="features">
+    <h2>Why Choose Our Machine Café Shop?</h2>
+    <ul>
+      <li>☕ Wide selection of modern coffee machines.</li>
+      <li>⚡ Energy-efficient and eco-friendly technology.</li>
+      <li>🛠️ Professional installation and maintenance service.</li>
+      <li>📦 Fast delivery and reliable support.</li>
+      <li>🌍 International standards with local expertise.</li>
+    </ul>
+  </section>
+
   <section class="gallery">
     <img src="https://avatars.mds.yandex.net/i?id=4ebfd8f4474ad3779bfc6fc426e210ee9216a5ea-9842162-images-thumbs&ref=rim&n=33&w=480&h=343" alt="Coffee machine">
     <img src="https://coffeebi.com/wp-content/uploads/2016/11/coffee-machines.jpg" alt="Professional coffee machines">
     <img src="https://www.nuvending.co.uk/wp-content/uploads/2017/06/Kueche_Close_CMYK-002-1005x1024.jpg" alt="Cafe equipment">
+  </section>
+
+  <section class="comingsoon">
+    <h2>🚀 Coming Soon</h2>
+    <p>Exciting new coffee solutions and exclusive product lines are on the way. Stay tuned!</p>
   </section>
 
   <footer>
