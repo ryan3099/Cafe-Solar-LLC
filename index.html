@@ -1,67 +1,118 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cafe Solar, LLC</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
       color: #333;
     }
     header {
-      background-color: #003366;
+      background-color: purple;
       color: white;
-      padding: 30px 20px;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 40px;
+      background-color: #f9f9f9;
+      align-items: center;
+    }
+    .hero img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .content {
+      padding: 40px;
       text-align: center;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+    .content h2 {
+      color: purple;
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
-    h1, h2 {
-      color: #003366;
-    }
-    .contact {
-      background: #fff;
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 15px;
       padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+      background-color: #fafafa;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      height: 250px;
+      object-fit: cover;
     }
     footer {
-      background-color: #003366;
+      background-color: purple;
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+      padding: 20px;
+    }
+    footer p {
+      margin: 5px 0;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    <h1>Cafe Solar, LLC</h1>
+    <p>Machine Café Solutions – Excellence in Coffee Technology</p>
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
-
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <section class="hero">
+    <div>
+      <h2>Welcome to Cafe Solar</h2>
+      <p>
+        At <b>Cafe Solar, LLC</b>, we specialize in premium coffee machines,  
+        offering advanced solutions for businesses and individuals.  
+        Located in El Segundo, CA, our mission is to bring innovation and  
+        reliability to every cup of coffee.
+      </p>
+      <p><strong>Email:</strong> contact@cafesolar.shop</p>
+      <p><strong>Phone:</strong> 187-025-22837</p>
+      <p><strong>Address:</strong> 222 N Pacific Coast Highway, 10th Floor, El Segundo, CA 90245</p>
+    </div>
+    <div>
+      <img src="https://i.ytimg.com/vi/8f9ssE1F9g4/maxresdefault.jpg" alt="Cafe Solar">
     </div>
   </section>
 
+  <section class="content">
+    <h2>Our Expertise</h2>
+    <p>
+      We deliver high-quality coffee machines and innovative vending  
+      solutions. From small offices to large cafés, our equipment ensures  
+      the perfect brewing experience every time.  
+    </p>
+  </section>
+
+  <section class="gallery">
+    <img src="https://avatars.mds.yandex.net/i?id=4ebfd8f4474ad3779bfc6fc426e210ee9216a5ea-9842162-images-thumbs&ref=rim&n=33&w=480&h=343" alt="Coffee machine">
+    <img src="https://coffeebi.com/wp-content/uploads/2016/11/coffee-machines.jpg" alt="Professional coffee machines">
+    <img src="https://www.nuvending.co.uk/wp-content/uploads/2017/06/Kueche_Close_CMYK-002-1005x1024.jpg" alt="Cafe equipment">
+  </section>
+
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    <p>&copy; 2025 Cafe Solar, LLC</p>
+    <p>Email: contact@cafesolar.shop | Phone: 187-025-22837</p>
+    <p>222 N Pacific Coast Highway, 10th Floor, El Segundo, CA 90245</p>
   </footer>
 </body>
 </html>
